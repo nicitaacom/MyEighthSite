@@ -1,0 +1,111 @@
+<!-- https://www.notion.so/MyEighthSite-1c030f4aefc24f4998e9a86c6aeecd80 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MyEighthSite</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.svg">
+	<!-- box icons -->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<!-- reset.css -->
+	<link rel="stylesheet" href="reset.css">
+	<!-- css js -->
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script defer src="pop-up.js"></script>
+</head>
+
+<body>
+
+	<main>				
+		<div class="container">
+
+			<div class="row">
+				<nav>
+
+					<div class="navbarTitle align-middle">Go trip</div>
+
+					<div class="navbarLinks">
+						<ul>
+							<li><a href="block.html">Block</a></li>
+							<li><a href="accordeon.html">Accordeon</a></li>
+							<li><a href="tabs.html">Tabs</a></li>
+							<li><a class="active" href="#">Pop-up</a></li>
+						</ul>
+					</div>
+
+					<div>
+						<ul class="auth">
+							<li><a href="#">Sign up</a></li>
+							<li><button class="button" href="#">Login</button></li>
+						</ul>
+					</div>
+
+				</nav>
+			</div>
+
+			<div class="pop-up_buttons">
+				<button data-open-pop-up="1" class="button">
+					pop-up 1
+				</button>
+
+				<button data-open-pop-up="2" class="button">
+					pop-up 2
+				</button>
+
+				<button data-open-pop-up="3" class="button">
+					pop-up 3
+				</button>
+			</div>
+
+			<div id="pop-up1" class="pop-up">
+				<div class="pop-up_content">
+
+					<div class="pop-up_header">
+						<h1>Pop-up 1</h1>
+						<i class='bx bx-x' id="closePopUp"></i>
+					</div>
+
+					<div class="pop-up_body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit atque reprehenderit, iure est earum maxime laborum assumenda vel enim aspernatur reiciendis possimus dolorum nesciunt, beatae ipsa ab harum eveniet cupiditate.</p>
+					</div>
+
+				</div>
+			</div>
+
+			<div id="pop-up2" class="pop-up">
+				<div class="pop-up_content">
+
+					<div class="pop-up_header">
+						<h1>Pop-up 2</h1>
+						<i class='bx bx-x' id="closePopUp"></i>
+					</div>
+					<div class="pop-up_body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit atque reprehenderit, iure est earum maxime laborum assumenda vel enim aspernatur reiciendis possimus dolorum nesciunt, beatae ipsa ab harum eveniet cupiditate.</p>
+					</div>
+
+				</div>
+			</div>
+
+			<div id="pop-up3" class="pop-up">
+				<div class="pop-up_content">
+
+					<div class="pop-up_header">
+						<h1>Pop-up 3</h1>
+						<i class='bx bx-x' id="closePopUp"></i>
+					</div>
+
+					<div class="pop-up_body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit atque reprehenderit, iure est earum maxime laborum assumenda vel enim aspernatur reiciendis possimus dolorum nesciunt, beatae ipsa ab harum eveniet cupiditate.</p>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+
+	</main>
+
+</body>
+</html>
