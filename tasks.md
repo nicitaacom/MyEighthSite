@@ -1,0 +1,2 @@
+- [ ]  Call object in js using dataset, id, class
+- [ ]  I think it possible to optimze it using remove visible only for previous tab
